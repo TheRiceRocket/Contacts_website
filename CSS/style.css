@@ -13,6 +13,18 @@ Nav Bar:
 #3e8fb0
 
 */
+a:link{
+    text-decoration: none;
+    color: black;
+}
+a:visited{
+    text-decoration: none;
+    color: black;
+}
+a:hover {
+    color: yellow;
+}
+
 body {
   background-color: #e0def4;
 }
@@ -21,9 +33,11 @@ body {
   display: inline-grid;
   align-items: center ;
   grid-template-columns: auto auto auto;
+  column-gap: 10%;
   position: relative;
   left: 25%;
   top: 200px;
+  margin: 15px;
 }
 
 #gItem {
@@ -32,7 +46,6 @@ body {
   width: 150px;
   height: 100px;
   background-color: #c4a7e7;
-  justify-content: space-evenly;
 }
 .nav {
   display: inline-flexbox;
@@ -52,4 +65,13 @@ body {
 #vItem {
     align-items: center;
     margin: 10%;
+}
+@media screen and (max-width: 600px){
+    .grid_container{
+        display: grid;
+        align-items: center;
+        grid-template-columns: auto;
+        grid-template-rows: 1fr;
+        row-gap: 25%;
+    }
 }
