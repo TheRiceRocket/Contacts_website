@@ -1,0 +1,15 @@
+.grid_container{
+    display: inline-grid;
+    align-items: center;
+    grid-template-columns: auto auto auto;
+
+    }
+
+#gItem {
+    position: relative;
+    text-align: center;
+    width: 150px ;
+    height: 100px;
+    background-color: #232136;
+    margin: 50px;
+    }
