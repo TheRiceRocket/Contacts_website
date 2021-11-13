@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contacts</title>
+    <link rel="stylesheet" href="CSS/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <header>
+    <!--Navigation Bar-->
+    <div class="nav">
+      <h1>Contacts</h1>
+      <ul style="list-style: none">
+        <div id="vItem">
+          <li><a href="page2.html"> New Contact + </a></li>
+        </div>
+        <div id="vItem">
+          <li><a href="#null">Favourites</a></li>
+        </div>
+      </ul>
+    </div>
+    <!--Navigation Bar-->
+  </header>
+  <body>
+    <!--Make New Contact-->
+    <div class="makeC">
+      <div>
+        <h1>
+          <img id="cImages" src="Images/Contact.png" alt="Contact Avatar" />
+        </h1>
+      </div>
+      <div class="cInfo">
+        <!--Inputs for Contacts-->
+        <input
+          class="cInput"
+          type="text"
+          name="cName"
+          placeholder="Contact Name"
+        />
+        <input
+          class="cInput"
+          type="text"
+          name="Cphone"
+          placeholder="Contact Phone #"
+        />
+        <input
+          class="cInput"
+          type="text"
+          name="cAdd"
+          placeholder="Contact Address"
+        />
+        <input
+          class="cInput"
+          type="text"
+          name="cEmail"
+          placeholder="Contact Email"
+        />
+        <!--Inputs for Contacts-->
+      </div>
+      <!--Contact Buttons-->
+      <div class="cButtons">
+        <button class="button save">Save Contact</button>
+        <button class="button cancel">Cancel</button>
+      </div>
+      <!--Contact Buttons-->
+    </div>
+    <!--Make New Contact-->
+  </body>
+</html>
