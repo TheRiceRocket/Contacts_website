@@ -104,9 +104,54 @@ body {
   align-items: center;
   position: fixed;
   top: 45%;
-  left: 32%;
+  left: 35%;
 }
-
+.save {
+  background-color: #9ccfd8;
+  color: black;
+  border: 2px solid black;
+  margin-right: 3%;
+  border-radius: 10px;
+}
+.cancel {
+  background-color: #eb6f92;
+  color: black;
+  border: 2px solid black;
+  height: 36px;
+  margin-left: 3%;
+  border-radius: 10px;
+}
+.cList {
+  position: relative;
+  left: -5%;
+}
+.edit {
+  background-color: #9ccfd8;
+  color: black;
+  border: 2px solid black;
+  height: 36px;
+  width: 70px;
+  margin-right: 3%;
+  border-radius: 10px;
+}
+.close {
+  background-color: #eb6f92;
+  color: black;
+  border: 2px solid black;
+  height: 36px;
+  width: 70px;
+  margin-left: 3%;
+  border-radius: 10px;
+}
+.ContactCard {
+  border: 2px solid black;
+  padding-left: 7px;
+  width: 40%;
+  display: grid;
+  align-items: center;
+  position: fixed;
+  left: 30%;
+}
 @media screen and (max-width: 600px) {
   .grid_container {
     display: grid;
@@ -131,14 +176,14 @@ body {
   }
   #cImages {
     position: relative;
-    left: 12%;
+    left: 17%;
   }
   .makeC {
     display: inline-flexbox;
     align-items: center;
     position: relative;
-    top: 125px;
-    left: 30%;
+    top: 150px;
+    left: 25%;
   }
   .cButtons {
     display: flex;
@@ -146,6 +191,18 @@ body {
     align-items: center;
     position: fixed;
     bottom: 30%;
-    left: 32%;
+    left: 24%;
+  }
+  .ContactCard {
+    position: fixed;
+    top: 25%;
+  }
+  .edit {
+    position: relative;
+    left: 20%;
+  }
+  .close {
+    position: relative;
+    left: 20%;
   }
 }
