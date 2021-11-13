@@ -63,6 +63,7 @@ body {
   font-family: "Roboto", sans-serif;
 }
 #vItem {
+    font-family: "Roboto", sans-serif;
     align-items: center;
     margin: 10%;
 }
@@ -73,5 +74,14 @@ body {
         grid-template-columns: auto;
         grid-template-rows: 1fr;
         row-gap: 25%;
+        padding-left: 65px;
+        top: 0;
+    }
+    .nav{
+        display: inline-flexbox;
+        justify-content: space-evenly;
+        width: 39%;
+        height: 100%;
+        position: rfixed;
     }
 }
