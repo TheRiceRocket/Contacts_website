@@ -1,15 +1,55 @@
-.grid_container{
-    display: inline-grid;
-    align-items: center;
-    grid-template-columns: auto auto auto;
+/*
+Fonts: 
+Roboto, sans-serif
 
-    }
+Colours: 
+Background
+#e0def4
+
+Contact Cards: 
+#c4a7e7
+
+Nav Bar: 
+#3e8fb0
+
+*/
+body {
+  background-color: #e0def4;
+}
+
+.grid_container {
+  display: inline-grid;
+  align-items: center ;
+  grid-template-columns: auto auto auto;
+  position: relative;
+  left: 25%;
+  top: 200px;
+}
 
 #gItem {
-    position: relative;
-    text-align: center;
-    width: 150px ;
-    height: 100px;
-    background-color: #232136;
-    margin: 50px;
-    }
+  position: relative;
+  text-align: left;
+  width: 150px;
+  height: 100px;
+  background-color: #c4a7e7;
+  justify-content: space-evenly;
+}
+.nav {
+  display: inline-flexbox;
+  width: 25%;
+  background-color: #3e8fb0;
+  position: fixed;
+  overflow: auto;
+  height: 100%;
+  top: 0;
+  left: 0;
+  /*
+    Text Atrriubtes
+    */
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+}
+#vItem {
+    align-items: center;
+    margin: 10%;
+}
